@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>GS Official</title>
+	<meta charset="utf-8">
+	<script src="https://kit.fontawesome.com/eb0ad79089.js" crossorigin="anonymous"></script>
+	<link href="stylesheetP.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<h1><a href="indexP.html">Golden S Co.</a></h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="indexP.html">Home</a></li> 
+				<li><a href="aboutP.html">About Us</a></li>
+				<!--Will need to add a: TABLE later.-->
+				<li><a href="merchP.html">Merch</a></li>
+				<!--Will need to add a: FORM later.-->
+				<li><a href="joinP.html">Applications</a></li>
+			</ul>
+		</nav>
+		<div id="homehero">
+		</div>
+		<main>
+			<h2>Official Home of the GS Club</h2>
+			<p>
+				<span class="alert">NEWS!!!</span>Golden Shot club has officially made the Masters' League!
+				Currently 4th place in overall standings, but holding right behind Club Destroyers!
+				GS is working firmly to retain their spot in the league!
+			</p>
+			<hr>
+			<h2>Join Our Team!</h2>
+			<p class="legend">
+				Required fields are marked with an asterisk *
+			</p>
+			<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+				<label for="myFName"><span class="asterisk">*</span> First Name:</label>
+				<input type="text" name="myFName" id="myFName" required="required">
+
+				<label for="myLName"><span class="asterisk">*</span> Last Name</label>
+				<input type="text" name="myLName" id="myLName" required="required">
+
+				<label for="myEmail"><span class="asterisk">*</span> E-mail</label>
+				<input type="email" name="myEmail" id="myEmail" required="required">
+
+				<label for="phone">Phone Number:</label>
+				<input type="tel" name="phone" id="phone" maxlength="12">
+
+				<label for="myDate">Arrival Date</label>
+				<input type="date" name="myDate" id="myDate">
+
+				<label for="nights">Nights:</label>
+				<input type="number" name="nights" id="nights" min="1" max="14">
+
+				<label for="myComments"><span class="asterisk">*</span> Comments:</label>
+				<textarea name="myComments" id="myComments" rows="2" cols="30" required="required"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+			<hr>
+			<h3>Contact Us @</h3>
+			<div id="contact">
+				<span class="brand">Golden S Co.</span><br>
+				Silicone Valley, 238<br>
+				L.A, CA 12640<br>
+				--------------<br>
+				888-555-5555<br>
+				<br>
+			</div>
+		</main>
+		<footer>
+			Copyright &copy; 2023 Golden S Co.<br>
+			<a href="mailto:luizaramis.sena4893@mail.davistech.edu">
+				luizaramis.sena4893@mail.davistech.edu
+			</a>
+		</footer>
+	</div>
+</body>
+
+</html>

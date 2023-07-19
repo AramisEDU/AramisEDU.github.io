@@ -1,0 +1,226 @@
+/* Basic Elements */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #d6c45d;
+	color: #ffffff;
+	font-family: Arial, Helvetica, "sans-serif";
+	background-image: url(pictures/brick.png);
+}
+
+header {
+	background-color: #002171;
+	color: #ffd700;
+	background-image: url(pictures/weave.jpg);
+	/*background-repeat: no-repeat;
+	background-position: right;*/
+	height: 120px;
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 3em;
+}
+
+			/*header {
+				color: #ffd700;
+				background-image: url(pictures/glowing-gold.jpg);
+				background-repeat: no-repeat;
+				background-position: right;
+				line-height: 400%;
+				text-indent: 1em;
+			}*/
+
+/* NAV and the Tricky Stuff */
+nav {
+	font-weight: bold;
+	padding: 1.5em;
+	font-size: 120%;
+	float: left;
+	width: 160px;
+}
+
+nav a {
+	text-decoration: none;
+	display: block;
+	padding: 0.25em 0.25em;
+	transition: background-color 2s linear;
+	float: left;
+}
+
+nav a:link {
+	color: #5C7FA3;
+}
+
+nav a:visited {
+	color: #344873;
+}
+
+nav a:hover {
+	color: #A52A2A;
+	background: #e7b6b6;
+}
+
+nav ul {
+	list-style-type: none;
+	padding-left: 0;
+	font-size: 1.2em;
+	margin: 0;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header a:link {
+	color: #ffd700;
+}
+
+header a:visited {
+	color: #ffd700;
+}
+
+header a:hover {
+	color: #90C7E3;
+}
+footer a {
+	text-decoration: none;
+}
+footer a:link {
+	color: #f80101;
+}
+footer a:visited {
+	color: #f80101;
+}
+footer a:hover {
+	color: #f3ef15;
+}
+
+/* Basic Elements 2.0 */
+main {
+	background-color: #073fd8;
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	display: block;
+	margin-left: 190px;
+	overflow: auto;
+}
+
+h1 {
+	color: #ffd700;
+	margin-bottom: 0;
+	font-family: Georgia, "Times New Roman", serif;
+	margin-top: 0;
+	font-size: 3em;
+	letter-spacing: .25em;
+}
+
+h2 {
+	color: #1976D2;
+	font-family: Georgia, "Times New Roman", serif;
+	text-shadow: 1px 1px #CCCCCC;
+}
+
+h3 {
+	font-family: Georgia, "Times New Roman", serif;
+	color: #000033;
+}
+
+main ul {
+	list-style-image: url(pictures/gold-bar.jpg);
+}
+
+footer {
+	background-color: #073fd8;
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 2em;
+	margin-left: 190px;
+}
+
+/* For the Form */
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 140px;
+	padding-right: 5px;
+}
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"] {
+	margin-left: 140px;
+}
+
+/* Table? */
+table {
+	border: 2px solid #ccc933;
+	/*border-width: 2px;
+	border-style: solid;
+	border-color: #3399CC; (the above line of code is just this but shortened)*/
+	border-collapse: collapse;
+}
+td, th {
+	padding: 0.5em;
+	border: 2px solid #ccc933;
+}
+td {
+	text-align: center;
+}
+tr:nth-of-type(odd){
+	background-color: #BDDFF0 ;
+}
+
+/* Specific Divs */
+.brand {
+	color: #e9c811;
+	font-weight: bold;
+}
+
+.alert {
+	color: #ffd700;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.legend {
+	color: #bd1e1e;
+	font-size: 90%;
+	font-style: italic;
+}
+
+#contact {
+	font-size: 90%;
+	width: 110px;
+}
+
+#homehero {
+	height: 300px;
+	background-image: url(pictures/trophy.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+/* THE WRAPPA */
+#wrapper {
+	background-color: #ffdd1f;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	min-width: 960px;
+	max-width: 2048px;
+	box-shadow: 3px 3px 3px #333333;
+	border: 1px solid #000033;
+	background-image: linear-gradient(to bottom, #ffdd1f, #90C7E3);
+}
